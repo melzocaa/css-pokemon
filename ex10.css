@@ -1,0 +1,44 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.item-28 {
+    display: flex;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.item-29 {
+    display: flex;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-30 {
+    display: flex;
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+body{
+    background-color: #cafdfd
+}
+
+@import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+p{
+    font-size: 30px;
+    text-align: center;
+    font-family:'pokemon solid', sans-serif ;
+    color: #016b6e;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 0.5px rgba(47, 0, 53, 0.274);
+}

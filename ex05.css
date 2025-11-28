@@ -1,0 +1,38 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    align-content: normal;
+    height: 400px;
+    gap: 16px;
+}
+
+.item-1 {
+    flex-basis: 100px;
+    height: auto;
+    align-self: flex-end;
+}
+
+.item-4 {
+    flex-basis: 100px;
+}
+
+.item-5 {
+    flex-basis: 100px;
+}
+
+body{
+    background-color: #e7d1ff
+}
+
+@import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+p{
+    font-size: 30px;
+    text-align: center;
+    font-family:'pokemon solid', sans-serif ;
+    color: #3a017a;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 0.5px rgba(47, 0, 53, 0.274);
+}

@@ -1,0 +1,82 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+@import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fdf7c3;
+    color: #000000;
+    min-height: 100vh;
+}
+
+h2{
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+    margin-top: 35px;
+}
+
+header {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: rgba(226, 174, 2, 0.9);
+    border-bottom: 4px solid transparent;
+    border-radius: 0 0 10px 10px;
+    font-family: 'Pokemon Solid', sans-serif;
+    letter-spacing: 3px;
+    color: #000000;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #000000;
+}
+
+header p {
+    font-size: 1.1rem;
+    margin-top: 8px;
+}
+
+.links-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.links-container ul {
+    list-style: none;
+    width: 500px;
+}
+
+.links-container li {
+    margin: 25px 0;
+}
+
+.links-container a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 80px;
+    padding: 0 20px;
+
+    background-color: #d3be03;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 12px;
+    transition: 0.3s;
+    font-weight: bold;
+    font-size: 1.3rem;
+    box-shadow: 0 6px 10px rgba(0,0,0,0.25);
+    font-family: 'poppins', sans-serif;
+}
+
+.links-container a:hover {
+    background-color: #ffbb00;
+    transform: scale(1.05);
+}
+
